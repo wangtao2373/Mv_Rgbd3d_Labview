@@ -1,0 +1,23 @@
+﻿生成启动时间为 2022/8/11 14:24:45。
+     1>项目“D:\Desktop\Labview示例代码\MV3D\SDK_MV3D_EX\SDK_MV3D_EX\SDK_MV3D_EX\SDK_MV3D_EX.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SDK_MV3D_EX.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /Zp1 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Mv3dRgbdEx.cpp Mv3dRgbdEx.h
+         Mv3dRgbdEx.h
+     1>d:\downloads\sdk_mv3drgbd_v1.0.0_win_220621_836278\mv3drgbdsdk\include\mv3drgbdapi.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\downloads\sdk_mv3drgbd_v1.0.0_win_220621_836278\mv3drgbdsdk\include\mv3drgbddefine.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Mv3dRgbdEx.cpp
+     1>d:\downloads\sdk_mv3drgbd_v1.0.0_win_220621_836278\mv3drgbdsdk\include\mv3drgbdapi.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\downloads\sdk_mv3drgbd_v1.0.0_win_220621_836278\mv3drgbdsdk\include\mv3drgbddefine.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Desktop\Labview示例代码\MV3D\SDK_MV3D_EX\SDK_MV3D_EX\Debug\Mv3dRgbdEx.dll" /INCREMENTAL /NOLOGO /LIBPATH:D:\Downloads\SDK_Mv3dRgbd_V1.0.0_Win_220621_836278\Mv3dRgbdSDK\Lib\win32 Mv3dRgbd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Desktop\Labview示例代码\MV3D\SDK_MV3D_EX\SDK_MV3D_EX\Debug\Mv3dRgbdEx.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Desktop\Labview示例代码\MV3D\SDK_MV3D_EX\SDK_MV3D_EX\Debug\Mv3dRgbdEx.lib" /MACHINE:X86 /DLL Debug\Mv3dRgbdEx.obj
+         Debug\Mv3dRgbdEx.obj
+     1>Debug\Mv3dRgbdEx.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+           正在创建库 D:\Desktop\Labview示例代码\MV3D\SDK_MV3D_EX\SDK_MV3D_EX\Debug\Mv3dRgbdEx.lib 和对象 D:\Desktop\Labview示例代码\MV3D\SDK_MV3D_EX\SDK_MV3D_EX\Debug\Mv3dRgbdEx.exp
+         SDK_MV3D_EX.vcxproj -> D:\Desktop\Labview示例代码\MV3D\SDK_MV3D_EX\SDK_MV3D_EX\Debug\Mv3dRgbdEx.dll
+     1>已完成生成项目“D:\Desktop\Labview示例代码\MV3D\SDK_MV3D_EX\SDK_MV3D_EX\SDK_MV3D_EX\SDK_MV3D_EX.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.05

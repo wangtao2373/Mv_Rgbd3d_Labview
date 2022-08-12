@@ -1,0 +1,62 @@
+[2022-07-15 09:27:27:0270] | Info     | Manager.cpp              -L1655: ---------------------Start call Mv3dRgbd.dll start--------------------
+[2022-07-15 09:27:27:0270] | Info     | Manager.cpp              -L1659: Build Time[220620_19:45:12], SDK version[0x1000003].
+[2022-07-15 09:27:27:0270] | Info     | Manager.cpp              -L1661: Mv3dRgbd.dll path [C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win32_i86\Mv3dRgbd.dll]
+[2022-07-15 09:27:27:0270] | Info     | Manager.cpp              -L1662: Current ExE path [C:\Program Files (x86)\National Instruments\LabVIEW 2015\LabVIEW.exe]
+[2022-07-15 09:27:27:0270] | Info     | Manager.cpp              -L1667: Config (C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win32_i86\Mv3dRgbdCfg.ini) exist .
+[2022-07-15 09:27:27:0270] | Info     | Manager.cpp              -L1674: DebugMode[0], nLogSize[100].
+[2022-07-15 09:27:27:0270] | Info     | Manager.cpp              -L1082: [Init] Begin.
+[2022-07-15 09:27:27:0273] | Info     | Manager.cpp              -L1115: [Init] end success.
+[2022-07-15 09:27:27:0273] | Info     | Manager.cpp              -L0465: [BindDevBySomeWay] start. chParm[].
+[2022-07-15 09:27:27:0273] | Info     | CameraModule.cpp         -L0085: [Enum] begin.
+[2022-07-15 09:27:27:0400] | Info     | CameraModule.cpp         -L0102: [Enum] enum by gige sdk, get camera num:[11].
+[2022-07-15 09:27:27:0400] | Info     | CameraModule.cpp         -L0105: [Enum] end success.
+[2022-07-15 09:27:27:0400] | Info     | Manager.cpp              -L0569: [CompareBindParm] param bFind[1]  nFindNum[0] .
+[2022-07-15 09:27:27:0400] | Info     | Manager.cpp              -L1042: [CreateHandle] begin.
+[2022-07-15 09:27:27:0400] | Info     | CameraModule.cpp         -L0156: [CreateHandle] Get Gige Sdk version:(0x4000004).
+[2022-07-15 09:27:27:0403] | Info     | Manager.cpp              -L1075: [CreateHandle] end success.
+[2022-07-15 09:27:27:0403] | Info     | Manager.cpp              -L0494: [BindDevBySomeWay] end. chParm[].
+[2022-07-15 09:27:27:0403] | Info     | Manager.cpp              -L0382: [BindDevice] bind device SN[] Model[] ip[] SubNetmask[] gateway[].
+[2022-07-15 09:27:27:0403] | Info     | Manager.cpp              -L0933: [ConnectDevice] begin.
+[2022-07-15 09:27:27:0572] | Info     | Manager.cpp              -L0978: [ConnectDevice] Get BufferNode count from C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win32_i86\Mv3dRgbdCfg.ini\BufferNode, value[5].
+[2022-07-15 09:27:27:0572] | Info     | Manager.cpp              -L0986: [ConnectDevice] SetImageNodeNum value[5].
+[2022-07-15 09:27:27:0572] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(CameraWorkingMode) nValue(4).
+[2022-07-15 09:27:27:0572] | Error    | CameraModule.cpp         -L0960: camera module MV_CC_SetValue fail, strKey(CameraWorkingMode) ValueType(4), nRet:(0x80000100).
+[2022-07-15 09:27:27:0572] | Error    | Manager.cpp              -L0851: Set working mode failed! err code:0x80060004.
+[2022-07-15 09:27:27:0650] | Error    | Manager.cpp              -L1003: [ConnectDevice] SetWorkModeAfterOpen fail nRet:[0x80060004].
+[2022-07-15 09:27:27:0650] | Info     | Manager.cpp              -L0156: [DeInit] begin.
+[2022-07-15 09:27:27:0650] | Info     | CameraModule.cpp         -L0222: [DeInit] begin.
+[2022-07-15 09:27:27:0650] | Error    | CameraModule.cpp         -L0230: [DeInit] MV_CC_StopGrabbing failed, nRet:[0x80000003].
+[2022-07-15 09:27:27:0650] | Error    | CameraModule.cpp         -L0240: [DeInit] MV_CC_CloseDevice failed, nRet:[0x80000003].
+[2022-07-15 09:27:27:0659] | Info     | CameraModule.cpp         -L0254: [DeInit] MV_CC_DestroyHandle success.
+[2022-07-15 09:27:27:0659] | Info     | CameraModule.cpp         -L0260: [DeInit] end success.
+[2022-07-15 09:27:27:0659] | Info     | CameraModule.cpp         -L0222: [DeInit] begin.
+[2022-07-15 09:27:27:0659] | Info     | CameraModule.cpp         -L0260: [DeInit] end success.
+[2022-07-15 09:29:04:0950] | Info     | Manager.cpp              -L1655: ---------------------Start call Mv3dRgbd.dll start--------------------
+[2022-07-15 09:29:04:0950] | Info     | Manager.cpp              -L1659: Build Time[220620_19:45:12], SDK version[0x1000003].
+[2022-07-15 09:29:04:0950] | Info     | Manager.cpp              -L1661: Mv3dRgbd.dll path [C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win32_i86\Mv3dRgbd.dll]
+[2022-07-15 09:29:04:0950] | Info     | Manager.cpp              -L1662: Current ExE path [C:\Program Files (x86)\National Instruments\LabVIEW 2015\LabVIEW.exe]
+[2022-07-15 09:29:04:0950] | Info     | Manager.cpp              -L1667: Config (C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win32_i86\Mv3dRgbdCfg.ini) exist .
+[2022-07-15 09:29:04:0950] | Info     | Manager.cpp              -L1674: DebugMode[0], nLogSize[100].
+[2022-07-15 09:29:04:0950] | Info     | Manager.cpp              -L1082: [Init] Begin.
+[2022-07-15 09:29:04:0952] | Info     | Manager.cpp              -L1115: [Init] end success.
+[2022-07-15 09:29:04:0952] | Info     | Manager.cpp              -L0465: [BindDevBySomeWay] start. chParm[].
+[2022-07-15 09:29:04:0952] | Info     | CameraModule.cpp         -L0085: [Enum] begin.
+[2022-07-15 09:29:05:0066] | Info     | CameraModule.cpp         -L0102: [Enum] enum by gige sdk, get camera num:[11].
+[2022-07-15 09:29:05:0066] | Info     | CameraModule.cpp         -L0105: [Enum] end success.
+[2022-07-15 09:29:05:0066] | Info     | Manager.cpp              -L0569: [CompareBindParm] param bFind[1]  nFindNum[0] .
+[2022-07-15 09:29:05:0066] | Info     | Manager.cpp              -L1042: [CreateHandle] begin.
+[2022-07-15 09:29:05:0066] | Info     | CameraModule.cpp         -L0156: [CreateHandle] Get Gige Sdk version:(0x4000004).
+[2022-07-15 09:29:05:0066] | Info     | Manager.cpp              -L1075: [CreateHandle] end success.
+[2022-07-15 09:29:05:0066] | Info     | Manager.cpp              -L0494: [BindDevBySomeWay] end. chParm[].
+[2022-07-15 09:29:05:0066] | Info     | Manager.cpp              -L0382: [BindDevice] bind device SN[] Model[] ip[] SubNetmask[] gateway[].
+[2022-07-15 09:29:05:0066] | Info     | Manager.cpp              -L0933: [ConnectDevice] begin.
+[2022-07-15 09:29:05:0236] | Info     | Manager.cpp              -L0978: [ConnectDevice] Get BufferNode count from C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win32_i86\Mv3dRgbdCfg.ini\BufferNode, value[5].
+[2022-07-15 09:29:05:0236] | Info     | Manager.cpp              -L0986: [ConnectDevice] SetImageNodeNum value[5].
+[2022-07-15 09:29:05:0236] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(CameraWorkingMode) nValue(4).
+[2022-07-15 09:29:05:0236] | Error    | CameraModule.cpp         -L0960: camera module MV_CC_SetValue fail, strKey(CameraWorkingMode) ValueType(4), nRet:(0x80000100).
+[2022-07-15 09:29:05:0236] | Error    | Manager.cpp              -L0851: Set working mode failed! err code:0x80060004.
+[2022-07-15 09:29:05:0324] | Error    | Manager.cpp              -L1003: [ConnectDevice] SetWorkModeAfterOpen fail nRet:[0x80060004].
+[2022-07-15 09:29:05:0324] | Info     | Manager.cpp              -L0156: [DeInit] begin.
+[2022-07-15 09:29:05:0324] | Info     | CameraModule.cpp         -L0222: [DeInit] begin.
+[2022-07-15 09:29:05:0324] | Error    | CameraModule.cpp         -L0230: [DeInit] MV_CC_StopGrabbing failed, nRet:[0x80000003].
+[2022-07-15 09:29:05:0324] | Error    | CameraModule.cpp         -L0240: [DeInit] MV_CC_CloseDevice failed, nRet:[0x80000003].

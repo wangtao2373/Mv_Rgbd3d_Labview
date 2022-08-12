@@ -1,0 +1,2 @@
+Mv3d_Lv_Sdk文件夹中存放的是labview子VI和示例程序
+SDK_MV3D_EX文件夹中存放的是Mv3d_Rgbd的扩展接口
